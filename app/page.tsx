@@ -1,29 +1,14 @@
 "use client";
 import Image from "next/image";
-
+import Footer from "@/components/FootSection"
+import Header from "@/components/HeadSection"
 import {motion} from "framer-motion";
 export default function Home() {
   return (
 
     <div>
-      <section>
-        <header className="w-full flex justify-between bg-blue-700 w-full span" >
-          <div className="items-start m-3 p-2">
-            <h3>
-              Title
-            </h3>
-          </div>
-          <div className="flex items-stretch">
-
-            <ul className="flex items-start justify-center m-3 p-2">
-              <li className="">List 1</li>
-              <li className="">List 2</li>
-              <li className="">List 3</li>
-            </ul>
-
-          </div>
-        </header>
-      </section>
+      <Header/>
+      
       <section>
         
         <div className="w-full flex items-center justify-center p-50 ">
@@ -40,6 +25,7 @@ export default function Home() {
           <div></div>
         </div>
       </section>
+      <Footer/>
     </div>
   );
 }
