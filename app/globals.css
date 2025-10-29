@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
 @import "tailwindcss";
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+}
+@theme {
+    --font-pixelify: "Pixelify Sans", sans-serif;
 }
 
 @theme inline {
@@ -24,3 +28,4 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
